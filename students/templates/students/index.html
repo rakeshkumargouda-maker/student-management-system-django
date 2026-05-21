@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student Management System
+        </title>
+        <style>
+            body {
+                font-family: Arial;
+                background: #f4f4f4;
+                margin: 0;
+            }
+            h1 {
+                color:darkblue;
+                font-size: 50px;
+            }
+            p {
+                font-size: 22px;
+            }
+            button {
+                padding: 12px 25px;
+                background: blue;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            button:hover {
+                background: darkblue;
+            }
+            .admin-btn {
+                background: black;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+            .admin-btn:hover {
+                background: darkgray;
+            }
+            .navbar {
+                background: darkblue;
+                padding: 20px;
+            }
+            .container {
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="/admin/" class="admin-btn">Admin Login</a>
+        </div>
+        <div class="container">
+            <h1>Student Management System</h1>
+            <p>Welcome to My Django Project</p>
+            <br>
+            <a href="/dashboard/">
+            <button>Get Started</button>
+            </a>
+        </div>
+    </body>
+</html>
